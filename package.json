@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "some description",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.5",
+    "express": "^4.14.1",
+    "express-mongo-db": "^2.0.3",
+    "http": "0.0.0",
+    "http-status-codes": "^1.4.0",
+    "lodash": "^4.17.15",
+    "lodash.pick": "^4.4.0",
+    "mongodb": "^2.2.23",
+    "mongoose": "^5.9.6"
+  }
+}
